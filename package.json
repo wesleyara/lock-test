@@ -1,0 +1,64 @@
+{
+  "name": "front-model",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "commit": "git-cz",
+    "format": "prettier --write .",
+    "lint": "eslint --ext js,ts,jsx,tsx --fix",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,jsx,tsx}": [
+      "prettier --write .",
+      "eslint --ext js,ts,jsx,tsx --fix"
+    ]
+  },
+  "dependencies": {
+    "@eosdacio/ual-wax": "^1.5.1",
+    "@fontsource/germania-one": "^4.5.8",
+    "@fontsource/poppins": "^4.5.0",
+    "@fontsource/roboto": "^4.5.7",
+    "@headlessui/react": "^1.6.1",
+    "axios": "^0.26.1",
+    "eosjs": "^22.1.0",
+    "framer-motion": "^6.3.3",
+    "next": "12.0.7",
+    "next-seo": "^5.4.0",
+    "next-themes": "^0.0.15",
+    "react": "17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-toastify": "^9.0.1",
+    "ual-anchor": "^1.1.2",
+    "ual-reactjs-renderer": "^0.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@types/react": "^17.0.38",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "autoprefixer": "^10.4.1",
+    "eslint": "8.6.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import-helpers": "^1.2.1",
+    "eslint-plugin-n": "^15.2.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.0",
+    "postcss": "^8.4.5",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.10",
+    "typescript": "^4.5.4"
+  }
+}
